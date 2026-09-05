@@ -1,0 +1,9 @@
+*.csv
+*.parquet
+metastore_db/
+derby.log
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+bigdata-env/
