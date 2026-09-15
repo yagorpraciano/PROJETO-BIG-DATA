@@ -36,3 +36,10 @@ Desenvolvimento de um modelo preditivo utilizando **PySpark** para rodar em modo
 
 ---
 *Projeto acadêmico desenvolvido para consolidar conhecimentos em Engenharia de Dados, Processamento Distribuído e Machine Learning.*
+
+## 🚨 Troubleshooting e Evidências Práticas
+
+Como a infraestrutura de Big Data deste projeto foi configurada do zero em ambiente **Linux (WSL)**, documentamos todos os desafios de infraestrutura e os comandos executados para dar total transparência ao trabalho:
+
+- [📓 Diário de Bordo e Solução de Problemas](DIARIO_DE_BORDO_ERROS.md): Registro dos principais conflitos de ambiente (como incompatibilidade de Java vs PySpark) e as soluções de contorno aplicadas.
+- [💻 Logs do Terminal WSL](logs_comandos_wsl.md): Histórico bruto de comandos executados, evidenciando a subida do cluster Hadoop/Hive, ativação de ambientes virtuais e versionamento.
