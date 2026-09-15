@@ -3,6 +3,7 @@
 Abaixo está o registro histórico de todos os comandos executados no ambiente Linux (Ubuntu via WSL) durante o desenvolvimento deste projeto. Este log evidencia a configuração do ambiente, inicialização do ecossistema Hadoop/Hive, ativação de ambientes virtuais, execução de scripts e versionamento com Git.
 Lembrando que a etapa de configuração de todo o ambiente Hadoop/Hive foi feito em aula juntamente com o professor. 
 ---
+```bash
   326  hive
   327  history
   328  cd ~
@@ -398,3 +399,4 @@ Lembrando que a etapa de configuração de todo o ambiente Hadoop/Hive foi feito
   718  history | tail -n 322 > logs_comandos_wsl.md
   719  nano logs_comandos_wsl.md 
   720  history | tail -n 400 > logs_comandos_wsl.md
+```
