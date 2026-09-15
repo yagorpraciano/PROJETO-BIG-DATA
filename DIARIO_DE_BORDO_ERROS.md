@@ -20,3 +20,6 @@ error: externally-managed-environment
     If you wish to install a non-Debian-packaged Python package,
     create a virtual environment using python3 -m venv path/to/venv.
 * **Como nós resolvemos: Seguimos a recomendação do próprio erro e criamos um ambiente virtual isolado só para o nosso projeto. Toda vez que abríamos o terminal, rodávamos source venv/bin/activate. Depois disso, o pip install funcionou perfeitamente.
+
+---
+## 2. Incompatibilidade do Java com o PySpark
