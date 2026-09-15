@@ -1,15 +1,15 @@
 # Descrição da Ideia do BI (Etapa 3)
 
-Conforme exigido pelos critérios de avaliação do projeto, detalhamos abaixo a concepção do Dashboard de Risco da TechPay como um produto de dados:
+Neste documento, explicamos a ideia por trás do Dashboard de Risco da TechPay e como ele deve ser usado na prática pelo negócio:
 
 **1. Para quem é esse dashboard?**
-O painel foi desenhado para a **Equipe de Prevenção a Fraudes (Risk & Compliance)** na linha de frente analítica, e para a **Diretoria de Operações** que acompanha o impacto financeiro macro.
+O painel foi pensado para a equipe de Prevenção a Fraudes, que atua na linha de frente analisando os alertas, e também para a Diretoria de Operações acompanhar o impacto financeiro geral.
 
 **2. Que decisão ele ajuda a tomar?**
-Ele direciona a tomada de decisão sobre **calibragem do motor de regras**. Ao ver que fraudes estão disparando na Web ou em Eletrônicos, a equipe pode decidir aumentar a fricção (exigir 2FA/token) ou reduzir limites de aprovação automática instantaneamente para esses nichos.
+Ele ajuda a equipe a calibrar o motor de regras. Por exemplo, se o dashboard mostrar que as fraudes estão disparando no canal Web ou em compras de Eletrônicos, a equipe pode agir rápido e exigir autenticação em dois fatores (2FA) ou baixar os limites de aprovação automática para essas transações.
 
 **3. Por que esses KPIs e não outros?**
-Selecionamos *Valor Total Fraudado*, *Transações Suspeitas* e *Risco Médio* porque eles representam o **dano financeiro direto** e a saúde da carteira. Descartamos KPIs puramente técnicos (como latência de aprovação ou uptime) ou demográficos (idade do cliente), pois não são acionáveis no curtíssimo prazo para barrar um ataque em andamento.
+Nós escolhemos mostrar o Valor Total Fraudado, as Transações Suspeitas e o Risco Médio porque esses números mostram o prejuízo real e a saúde do negócio. Deixamos de lado métricas de infraestrutura (como tempo de resposta do sistema) ou dados genéricos do cliente, porque eles não ajudam a barrar um ataque na hora que ele está acontecendo.
 
 **4. Quem seria o dono desse painel?**
-O dono (Product Owner / Sponsor) seria o **Gerente de Risco (Fraud Manager)**. Ele seria responsável por acompanhar esses indicadores diariamente/semanalmente e coordenar com o time de Engenharia as alterações sistêmicas necessárias para estancar perdas.
+O "dono" do painel seria o Gerente de Risco. É ele quem vai olhar esses números todo dia ou toda semana e pedir para o time de Engenharia ajustar o sistema sempre que for necessário para evitar mais perdas.
